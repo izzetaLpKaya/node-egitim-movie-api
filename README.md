@@ -1,26 +1,16 @@
-<<<<<<< HEAD
-# node-egitimi-movie-api
-
-
-=======
 
 
 # node-egitimi-movie-api
 
 
 
-
->>>>>>> 243a25bd51704d995f0b0b8280a3374bae6f4d17
 # Movies
 
 | Route | HTTP Verb	 | POST body	 | Description	 |
 | --- | --- | --- | --- |
 | /api/movies | `GET` | Empty | List all movies. |
-<<<<<<< HEAD
 | /api/movies | `POST` | {'title':'foo', 'category':'bar', 'country':'Turkey', year:1990, director:"id", imdb_score: 9.7 } | Create a new movie. |
-=======
 | /api/movies | `POST` | {'title':'foo', 'category':'bar', 'country':'Turkey', year:1890, director:"id", imdb_score: 9.1 } | Create a new movie. |
->>>>>>> 243a25bd51704d995f0b0b8280a3374bae6f4d17
 | /api/movies/:movie_id | `GET` | Empty | Get a movie. |
 | /api/movies/:movie_id | `PUT` | {'name':'foo', 'surname':'bar'} | Update a movie with new info. |
 | /api/movies/:movie_id | `DELETE` | Empty | Delete a movie. |
@@ -48,9 +38,3 @@
 
 # Demo
 [Live demo on Heroku](https://node-egitimi-movie-api.herokuapp.com/)
-
-<<<<<<< HEAD
-enjoy!
-=======
-
->>>>>>> 243a25bd51704d995f0b0b8280a3374bae6f4d17
